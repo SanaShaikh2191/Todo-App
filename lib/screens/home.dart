@@ -1,4 +1,4 @@
-import 'dart:ffi';
+
 
 import 'package:flutter/material.dart';
 import 'package:todo/constants/colors.dart';
@@ -46,7 +46,7 @@ class _HomeState extends State<Home> {
                         ),
                       ),
 
-                      for (ToDo toDo in todoList)
+                      for (ToDo toDo in _foundToDo)
                         TodoItem(
                           todoo: toDo,
                           onToDoChanged: _handleToDoChange,
@@ -157,7 +157,10 @@ class _HomeState extends State<Home> {
           )
           .toList();
     }
-    _foundToDo = results;
+    setState(() {
+       _foundToDo = results;
+    });
+   
   }
 
   AppBar _buildAppBar() {

@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       SystemUiOverlayStyle(statusBarColor: Colors.transparent),
     );
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'ToDo App',
       debugShowCheckedModeBanner: false,
 
       theme: ThemeData(
