@@ -16,9 +16,9 @@ A clean, simple, and modern Flutter-based Todo application to help users stay or
 
 | Task List View | Search Filter |
 |----------------|---------------|
-| ![Todo List](screenshots/todo_list.png) | ![Search Todo](screenshots/search_todo.png) |
+| ![Todo List](assets/images/todo_lists.jpg) | ![Search Todo](assets/images/search_todo.jpg) |
 
-> Make sure to create a `screenshots/` directory and place these images for proper display on GitHub.
+
 
 ## 🧰 Tech Stack
 
