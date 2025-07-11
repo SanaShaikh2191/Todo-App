@@ -19,6 +19,10 @@ A clean, simple, and modern Flutter-based Todo application to help users stay or
 | ![Todo List](assets/images/todo_lists.jpg) | ![Search Todo](assets/images/search_todo.jpg) |
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a6667a701b76e5dd6cf1576949f10996cd54ea48
 
 ## 🧰 Tech Stack
 
